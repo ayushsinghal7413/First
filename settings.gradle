@@ -1,0 +1,36 @@
+// ✅ MUST be first
+pluginManagement {
+    includeBuild("../node_modules/@react-native/gradle-plugin")
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+// ✅ MUST come immediately after pluginManagement
+plugins {
+    id("com.facebook.react.settings")
+}
+
+// ✅ Now other blocks can come
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// ✅ Safe to use after plugins block
+rootProject.name = 'Firstprogram'
+include ':app'
+
+// ✅ Still required for newer React Native versions
+includeBuild('../node_modules/@react-native/gradle-plugin')
+
+// ✅ React Native autolinking config — after everything else
+extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
+    ex.autolinkLibrariesFromCommand()
+}
