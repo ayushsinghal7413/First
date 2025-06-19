@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "983151935627",
+    "project_id": "asinghal",
+    "storage_bucket": "asinghal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983151935627:android:44e7526b10eb328b56148e",
+        "android_client_info": {
+          "package_name": "com.Asinghal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983151935627-vu9u5kj1mhcg6at3fevlfulmu3ofikp7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Asinghal",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "983151935627-ngv3hdsbe54r3r081kgtn4s97vit6720.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxDuKn3KjovJA0Or7DJ4AgOtJFlRbtzHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983151935627-ngv3hdsbe54r3r081kgtn4s97vit6720.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
